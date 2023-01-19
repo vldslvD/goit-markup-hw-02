@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+  --text-color: #434455;
+  --dark-text-color: #2E2F42;
+  --primary-color: #4D5AE5;
+}
+body{
+  font-family: Roboto;
+  color: var(--text-color)
+}
+.logo{
+  color: var(--dark-text-color);
+  font-family: Raleway;
+  text-transform: uppercase;
+}
+.logo-accent{
+  color: var(--primary-color);
+}
+
+.link{
+  text-decoration: none;
+  color: var(--dark-text-color);
+}
+.link:visited{
+  text-decoration: none;
+  color:var(--dark-text-color);
+}
+.list {
+  list-style-type: none;
+}
+.contact-list .link{
+  font-style: normal;
+}
