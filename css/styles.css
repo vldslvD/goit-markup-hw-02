@@ -81,9 +81,12 @@ body{
   line-height: 107%;
 }
 .button{
+  font: inherit;
+  color: inherit;
   font-weight: 500;
   cursor: pointer;
   border: none;
+  
 }
 
 .hero .button{
