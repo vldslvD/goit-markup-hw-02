@@ -1,17 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 *{
   --text-color: #434455;
   --dark-text-color: #2E2F42;
   --primary-color: #4D5AE5;
+  --white-color: #FFF;
+  --light-color: #F4F4FD;
+  --accent-color: #E7E9FC;
 }
 body{
   font-family: Roboto;
-  color: var(--text-color)
+  color: var(--text-color);
+  font-size: 16px;
+}
+.hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .logo{
   color: var(--dark-text-color);
   font-family: Raleway;
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 133%;
 }
 .logo-accent{
   color: var(--primary-color);
@@ -20,14 +38,105 @@ body{
 .link{
   text-decoration: none;
   color: var(--dark-text-color);
+  line-height: 150%;
 }
+
 .link:visited{
   text-decoration: none;
   color:var(--dark-text-color);
 }
+
 .list {
   list-style-type: none;
 }
-.contact-list .link{
+
+.nav-list{
+  color: var(--dark-text-color);
+  font-weight: 500;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus{
+  color: var(--text-color);
+}
+
+.contact-list .link {
   font-style: normal;
+  color: var(--text-color);
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: var(--primary-color);
+}
+
+.hero{
+  background-color: var(--dark-text-color);
+}
+
+.hero .title{
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+}
+.button{
+  font-weight: 500 !important;
+  cursor: pointer;
+  border: none;
+}
+.hero .button{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-width: 0;
+  
+}
+
+.hero .button:hover,
+.hero .button:focus{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.title{
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--dark-text-color);
+}
+
+.features-list .text{
+  line-height: 150%;
+}
+
+.section-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  color: var(--dark-text-color);
+}
+
+.employees-section{
+  background-color: var(--light-color);
+}
+
+.employee-list .item{
+  background-color: var(--white-color);
+}
+
+.footer{
+  color:var(--accent-color);
+  background-color: var(--dark-text-color);
+}
+.footer .logo-white{
+  color: var(--light-color);
+}
+
+.filter-list .button{
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background-color: var(--light-color);
+  color: var(--primary-color);
 }
