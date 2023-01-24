@@ -81,7 +81,7 @@ body{
   line-height: 107%;
 }
 .button{
-  font-weight: 500 !important;
+  font-weight: 500;
   cursor: pointer;
   border: none;
 }
