@@ -126,6 +126,8 @@ body{
   font-size: 36px;
   line-height: 111%;
   color: var(--dark-text-color);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .employees-section{
