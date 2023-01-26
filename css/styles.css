@@ -1,4 +1,4 @@
-*{
+:root{
   --text-color: #434455;
   --dark-text-color: #2E2F42;
   --primary-color: #4D5AE5;
@@ -39,6 +39,7 @@ body{
   text-decoration: none;
   color: var(--dark-text-color);
   line-height: 150%;
+  letter-spacing: 0.02em;
 }
 
 .link:visited{
@@ -56,8 +57,9 @@ body{
 }
 
 .nav-list .link:hover,
-.nav-list .link:focus{
-  color: var(--text-color);
+.nav-list .link:focus,
+.nav-list .link.current{
+  color: var(--primary-color);
 }
 
 .contact-list .link {
@@ -81,12 +83,14 @@ body{
   line-height: 107%;
 }
 .button{
-  font: inherit;
+  font-family: inherit;
   color: inherit;
   font-weight: 500;
   cursor: pointer;
   border: none;
-  
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
 }
 
 .hero .button{
@@ -106,15 +110,17 @@ body{
 }
 
 .title{
+  letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
   color: var(--dark-text-color);
+  line-height: 120%;
 }
 
-.features-list .text{
+.text{
+  letter-spacing: 0.02em;
   line-height: 150%;
 }
-
 .section-title{
   font-weight: 700;
   font-size: 36px;
@@ -134,9 +140,15 @@ body{
   color:var(--accent-color);
   background-color: var(--dark-text-color);
 }
+
 .footer .logo-white{
   color: var(--light-color);
 }
+
+.footer .text{
+  line-height: 150%;;
+}
+
 
 .filter-list .button{
   border: 1px solid var(--accent-color);
