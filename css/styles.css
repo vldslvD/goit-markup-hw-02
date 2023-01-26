@@ -138,6 +138,10 @@ body{
   background-color: var(--white-color);
 }
 
+.project-list .item{
+  border: 1px solid var(--accent-color);
+}
+
 .footer{
   color:var(--accent-color);
   background-color: var(--dark-text-color);
