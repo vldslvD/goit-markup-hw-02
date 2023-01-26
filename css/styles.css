@@ -116,7 +116,9 @@ body{
   color: var(--dark-text-color);
   line-height: 120%;
 }
-
+.examples-list .item{
+  border: 1px solid var(--accent-color);
+}
 .text{
   letter-spacing: 0.02em;
   line-height: 150%;
