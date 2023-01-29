@@ -1,4 +1,4 @@
-:root{
+:root {
   --text-color: #434455;
   --dark-text-color: #2E2F42;
   --primary-color: #4D5AE5;
@@ -7,12 +7,14 @@
   --accent-color: #E7E9FC;
   --pressed-color: #404BBF;
 }
-body{
+
+body {
   font-family: Roboto;
   color: var(--text-color);
   font-size: 16px;
 }
-.hidden{
+
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -24,7 +26,8 @@ body{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.logo{
+
+.logo {
   color: var(--dark-text-color);
   font-family: Raleway;
   text-transform: uppercase;
@@ -32,34 +35,35 @@ body{
   font-size: 18px;
   line-height: 133%;
 }
-.logo-accent{
+
+.logo-accent {
   color: var(--primary-color);
 }
 
-.link{
+.link {
   text-decoration: none;
   color: var(--dark-text-color);
   line-height: 150%;
   letter-spacing: 0.02em;
 }
 
-.link:visited{
+.link:visited {
   text-decoration: none;
-  color:var(--dark-text-color);
+  color: var(--dark-text-color);
 }
 
 .list {
   list-style-type: none;
 }
 
-.nav-list{
+.nav-list {
   color: var(--dark-text-color);
   font-weight: 500;
 }
 
 .nav-list .link:hover,
 .nav-list .link:focus,
-.nav-list .link.current{
+.nav-list .link.current {
   color: var(--primary-color);
 }
 
@@ -73,17 +77,18 @@ body{
   color: var(--primary-color);
 }
 
-.hero{
+.hero {
   background-color: var(--dark-text-color);
 }
 
-.hero .title{
+.hero .title {
   color: var(--white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
 }
-.button{
+
+.button {
   font-family: inherit;
   color: inherit;
   font-weight: 500;
@@ -94,23 +99,23 @@ body{
   letter-spacing: 0.04em;
 }
 
-.hero .button{
+.hero .button {
   background-color: var(--primary-color);
   color: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-width: 0;
-  
+
 }
 
 .hero .button:hover,
-.hero .button:focus{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
+.hero .button:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.title{
+.title {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
@@ -118,11 +123,12 @@ body{
   line-height: 120%;
 }
 
-.text{
+.text {
   letter-spacing: 0.02em;
   line-height: 150%;
 }
-.section-title{
+
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -131,35 +137,36 @@ body{
   text-transform: capitalize;
 }
 
-.employees-section{
+.employees-section {
   background-color: var(--light-color);
 }
 
-.employee-list .item{
+.employee-list .item {
   background-color: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
-.project-list .item{
+.project-list .item {
   border: 1px solid var(--accent-color);
 }
 
-.footer{
-  color:var(--accent-color);
+.footer {
+  color: var(--accent-color);
   background-color: var(--dark-text-color);
 }
 
-.footer .logo-white{
+.footer .logo-white {
   color: var(--light-color);
 }
 
-.footer .text{
-  line-height: 150%;;
+.footer .text {
+  line-height: 150%;
+  ;
 }
 
 
-.filter-list .button{
+.filter-list .button {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   background-color: var(--light-color);
